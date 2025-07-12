@@ -2,7 +2,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from file_writer import write_to_file
+from file_writter import write_to_file
 
 def test_write_to_file():
     test_filename = "test_output.txt"
